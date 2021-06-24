@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.23.6"
+gem "decidim", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
 # gem "decidim", path: "../decidim"
 # gem "decidim-map", path: "../decidim-map"
 
@@ -43,7 +43,7 @@ gem "sprockets", "~> 3.7"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", "0.23.6"
+  gem "decidim-dev", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
   # gem "decidim-dev", path: "../decidim"
 end
 
