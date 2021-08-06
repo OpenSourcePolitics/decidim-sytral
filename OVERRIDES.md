@@ -1,0 +1,1 @@
+- app/controllers/decidim/meetings/meetings_controller.rb
