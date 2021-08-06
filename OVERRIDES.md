@@ -1,1 +1,2 @@
+- app/commands/decidim/meetings/join_meeting.rb
 - app/controllers/decidim/meetings/meetings_controller.rb
