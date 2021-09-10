@@ -91,11 +91,11 @@ module Decidim
         @meeting ||= Meeting.not_hidden.where(component: current_component).find(params[:id])
       end
 
-      def meetings  
+      def meetings
         # OSP OVERRIDES for meetings order
-        # - origin :  
+        # - origin :
         # @meetings ||= paginate(search.results.not_hidden)
-        # - override :  
+        # - override :
         @meetings ||= paginate(search.results.order(start_time: params.dig("filter", "date")&.include?("past") ? :desc : :asc))
       end
 
