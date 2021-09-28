@@ -23,7 +23,7 @@ if Rails.application.secrets.dig(:scaleway, :id).present? && Rails.env.productio
       'X-Content-Type-Options' => 'nosniff'
     }
     if Rails.application.secrets.dig(:asset_host).present?
-      config.asset_host = "https://#{Rails.application.secrets.dig(:asset_host)}/"
+      config.asset_host = "https://#{Rails.application.secrets.dig(:asset_host)}"
     end
   end
 else
