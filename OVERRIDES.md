@@ -1,7 +1,6 @@
 ## Overrides
 
 - app/commands/decidim/meetings/join_meeting.rb
-- app/controllers/decidim/meetings/meetings_controller.rb
 
 **PR #11**
 * `app/serializers/decidim/meetings/registration_serializer.rb`  
