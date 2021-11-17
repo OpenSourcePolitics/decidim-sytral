@@ -1,5 +1,11 @@
 ---
 en:
+  decidim:
+    meetings:
+      directory:
+        meetings:
+          index:
+            all: All
   layouts:
     decidim:
       footer:
