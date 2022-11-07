@@ -4,12 +4,12 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = "release/0.24-stable"
+DECIDIM_VERSION = "release/0.26-stable"
 
 gem "decidim", git: "https://github.com/decidim/decidim.git", branch: DECIDIM_VERSION
 
-gem "decidim-decidim_awesome", "~> 0.7.0"
-gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "master"
+gem "decidim-decidim_awesome"
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer"
 
 gem "bootsnap", "~> 1.4"
 
